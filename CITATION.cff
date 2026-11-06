@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use MAX10-HTD, please cite it as below."
+title: "MAX10-HTD An Open FPGA Benchmark Dataset for AI-Based Hardware Trojan Detection"
+type: dataset
+version: 1.0.0
+license: CC-BY-4.0
+repository-code: "https://github.com/aalbata/MAX10-HTD"
+authors:
+  - family-names: "Al Bataineh"
+    given-names: "Ali"
+    affiliation: "Higher Colleges of Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0001-9530-7950"
+    email: "aalbataineh@hct.ac.ae"
+keywords:
+  - hardware Trojan
+  - FPGA
+  - benchmark dataset
+  - machine learning
+  - Quartus Prime
+  - MAX 10

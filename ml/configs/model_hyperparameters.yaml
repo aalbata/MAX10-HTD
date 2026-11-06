@@ -1,0 +1,147 @@
+# Fixed classifier configurations of the MAX10-HTD reference baselines.
+#
+# No hyperparameter search is run.  A configuration is the optimal default of
+# Probst, Boulesteix and Bischl (2019, JMLR 20(53), Table 3, area under the ROC
+# curve) when it maps exactly onto the installed Python class; otherwise it is
+# the documented default of the installed library version.  Sources and the
+# mapping from the R implementations are listed in hyperparameter_sources.csv.
+#
+# Values that depend on the training fold are written as expressions:
+#   n_train  number of training rows of the fold
+#   p        number of feature columns passed to the classifier
+# random_state is fixed for every estimator that accepts it; it controls
+# reproducibility and is not a hyperparameter.  Class weights are left at the
+# library default (none) for every algorithm.
+
+random_state: 20261104
+n_jobs: 4
+
+models:
+  LR:
+    name: Logistic Regression
+    library: scikit-learn 1.9.0
+    estimator: sklearn.linear_model.LogisticRegression
+    standardize: true
+    params:
+      l1_ratio: 0.403
+      C: "1 / (0.004 * n_train)"
+      solver: saga
+      max_iter: 100000
+    basis: Probst et al. (2019) Table 3, glmnet alpha 0.403 and lambda 0.004
+  DT:
+    name: Decision Tree
+    library: scikit-learn 1.9.0
+    estimator: sklearn.tree.DecisionTreeClassifier
+    standardize: false
+    params:
+      criterion: gini
+      max_depth: 21
+      min_samples_split: 24
+      min_samples_leaf: 12
+      ccp_alpha: 0.0
+    basis: Probst et al. (2019) Table 3, rpart cp 0, maxdepth 21, minsplit 24, minbucket 12
+  RF:
+    name: Random Forest
+    library: scikit-learn 1.9.0
+    estimator: sklearn.ensemble.BaggingClassifier
+    standardize: false
+    params:
+      estimator: "DecisionTreeClassifier(criterion='gini', max_features=ceil(0.257 * p))"
+      n_estimators: 983
+      max_samples: 0.703
+      bootstrap: false
+      bootstrap_features: false
+    basis: Probst et al. (2019) Table 3, ranger 983 trees, sample fraction 0.703 without replacement, mtry 0.257 p
+  SVM:
+    name: Support Vector Machine
+    library: scikit-learn 1.9.0
+    estimator: sklearn.svm.SVC
+    standardize: true
+    params:
+      kernel: rbf
+      C: 682.478
+      gamma: 0.005
+    score: decision_function
+    basis: Probst et al. (2019) Table 3, e1071 svm radial kernel, cost 682.478, gamma 0.005
+  KNN:
+    name: K-Nearest Neighbors
+    library: scikit-learn 1.9.0
+    estimator: sklearn.neighbors.KNeighborsClassifier
+    standardize: true
+    params:
+      n_neighbors: 30
+      metric: minkowski
+      p: 2
+      weights: "kknn optimal kernel rank weights for p features"
+    basis: Probst et al. (2019) Table 3, kknn k 30 with the package default optimal kernel
+  XGB:
+    name: XGBoost
+    library: xgboost 3.4.1
+    estimator: xgboost.XGBClassifier
+    standardize: false
+    params:
+      n_estimators: 4168
+      learning_rate: 0.018
+      subsample: 0.839
+      booster: gbtree
+      max_depth: 13
+      min_child_weight: 2.06
+      colsample_bytree: 0.752
+      colsample_bylevel: 0.585
+      reg_lambda: 0.982
+      reg_alpha: 1.113
+      objective: "binary:logistic"
+      tree_method: exact
+    basis: Probst et al. (2019) Table 3, xgboost; exact tree method as chosen by the 0.72 default on small data
+  MLP:
+    name: Multilayer Perceptron
+    library: scikit-learn 1.9.0
+    estimator: sklearn.neural_network.MLPClassifier
+    standardize: true
+    params: {}
+    basis: library default (one hidden layer of 100 ReLU units, adam, alpha 0.0001, 200 epochs)
+  ET:
+    name: Extra Trees
+    library: scikit-learn 1.9.0
+    estimator: sklearn.ensemble.ExtraTreesClassifier
+    standardize: false
+    params: {}
+    basis: library default (100 trees, max_features sqrt, no bootstrap)
+  AB:
+    name: AdaBoost
+    library: scikit-learn 1.9.0
+    estimator: sklearn.ensemble.AdaBoostClassifier
+    standardize: false
+    params: {}
+    basis: library default (50 depth-1 trees, learning rate 1.0, discrete SAMME)
+  GNB:
+    name: Gaussian Naive Bayes
+    library: scikit-learn 1.9.0
+    estimator: sklearn.naive_bayes.GaussianNB
+    standardize: false
+    params: {}
+    basis: library default (var_smoothing 1e-09)
+  LightGBM:
+    name: Light Gradient Boosting Machine
+    library: lightgbm 4.7.0
+    estimator: lightgbm.LGBMClassifier
+    standardize: false
+    params:
+      deterministic: true
+      force_col_wise: true
+      verbose: -1
+    basis: library default with the documented settings for deterministic training
+
+baselines:
+  Dummy:
+    name: Majority-class baseline
+    estimator: sklearn.dummy.DummyClassifier
+    params:
+      strategy: most_frequent
+  Size:
+    name: Circuit-size-only baseline
+    estimator: sklearn.linear_model.LogisticRegression
+    standardize: true
+    features: [fit_le]
+    params: {}
+    basis: library default logistic regression on the logarithm of the number of logic elements

@@ -1,0 +1,8 @@
+feature,median_trojan_inserted,median_trojan_free,auc_univariate,mannwhitney_p
+fit_le,84.5,96.5,0.5311,0.6147
+fit_registers,41.5,40,0.5109,0.86
+net_lcells,82,96.5,0.5308,0.6185
+pow_total_mw,100.2,100.5,0.4681,0.6029
+sta_fmax_mhz,194.9,107,0.5676,0.3894
+net_pi_bits,35,35,0.524,0.6971
+net_po_bits,32,32,0.4304,0.2528

@@ -1,0 +1,142 @@
+{
+ "catalog_designs": 380,
+ "compile_by_source": [
+  {
+   "compiled": 3,
+   "designs": 3,
+   "role": "clean",
+   "source": "ghost"
+  },
+  {
+   "compiled": 14,
+   "designs": 14,
+   "role": "trojan",
+   "source": "ghost"
+  },
+  {
+   "compiled": 21,
+   "designs": 27,
+   "role": "clean",
+   "source": "hayashi"
+  },
+  {
+   "compiled": 103,
+   "designs": 270,
+   "role": "trojan",
+   "source": "hayashi"
+  },
+  {
+   "compiled": 5,
+   "designs": 8,
+   "role": "clean",
+   "source": "trusthub"
+  },
+  {
+   "compiled": 21,
+   "designs": 58,
+   "role": "trojan",
+   "source": "trusthub"
+  }
+ ],
+ "compile_rate": 0.4394736842105263,
+ "compiled": 167,
+ "designs_per_family": {
+  "clocking": 1,
+  "communication": 6,
+  "cryptographic": 4,
+  "debug": 1,
+  "interconnect": 2,
+  "memory": 3,
+  "processor": 10
+ },
+ "duplicate_feature_rows": 7,
+ "duplicate_sets": 3,
+ "duplicate_sets_across_host_groups": 0,
+ "duplicate_sets_mixed_labels": 0,
+ "exclusion_reasons": {
+  "Trojan-free reference did not compile": 7,
+  "compilation failed (fitter)": 2,
+  "compilation failed (synthesis)": 205,
+  "compilation failed (timeout)": 6,
+  "post-fit netlist identical to a Trojan-free design (inserted logic removed by synthesis)": 13,
+  "post-fit netlist identical to another Trojan-free design of the benchmark": 1,
+  "post-fit netlist identical to another Trojan-inserted design of the benchmark": 10
+ },
+ "failed_stage": {
+  "fitter": 2,
+  "synthesis": 205,
+  "timeout": 6
+ },
+ "families": 7,
+ "features": 163,
+ "features_per_group": {
+  "netlist_structure": 50,
+  "quartus_fitter": 31,
+  "quartus_power": 10,
+  "quartus_routing": 7,
+  "quartus_synthesis": 27,
+  "quartus_timing": 17,
+  "rtl_structure": 21
+ },
+ "features_strongly_size_correlated": 41,
+ "features_with_missing": 58,
+ "host_groups": 27,
+ "host_groups_per_family": {
+  "clocking": 1,
+  "communication": 6,
+  "cryptographic": 4,
+  "debug": 1,
+  "interconnect": 2,
+  "memory": 3,
+  "processor": 10
+ },
+ "identical_trojan_free_kept_once": 1,
+ "identical_trojan_inserted_kept_once": 10,
+ "imbalance_ratio": 3.857142857142857,
+ "missing_cells_fraction": 0.03771201732226633,
+ "near_duplicate_clean_pairs": 1,
+ "payload_categories": {
+  "change-functionality": 13,
+  "change-functionality;denial-of-service": 2,
+  "degrade-performance;denial-of-service": 1,
+  "denial-of-service": 6,
+  "leak-information": 3,
+  "not-reported": 83
+ },
+ "removed_by_synthesis": 13,
+ "samples": 136,
+ "sources": {
+  "ghost": {
+   "samples": 15,
+   "trojan_inserted": 13
+  },
+  "hayashi": {
+   "samples": 104,
+   "trojan_inserted": 83
+  },
+  "trusthub": {
+   "samples": 17,
+   "trojan_inserted": 12
+  }
+ },
+ "trigger_categories": {
+  "not-reported": 83,
+  "triggered-externally": 5,
+  "triggered-internally": 20
+ },
+ "trojan_free": 28,
+ "trojan_inserted": 108,
+ "verification": {
+  "dormant_check": {
+   "outputs differ": 31,
+   "outputs identical": 74,
+   "simulation timeout": 3
+  },
+  "interface_identical": 92,
+  "pairs": 108,
+  "pairs_with_extra_inputs": 15,
+  "pairs_with_extra_outputs": 6,
+  "residual_cells_le_10": 24,
+  "residual_cells_median": 23.0
+ }
+}

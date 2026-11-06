@@ -1,0 +1,53 @@
+{
+ "positive_class": "Trojan-inserted (label 1)",
+ "models": [
+  "LR",
+  "DT",
+  "RF",
+  "SVM",
+  "KNN",
+  "XGB",
+  "MLP",
+  "ET",
+  "AB",
+  "GNB",
+  "LightGBM",
+  "Dummy",
+  "Size"
+ ],
+ "repetitions": {
+  "E1": 5,
+  "E4": 2,
+  "E5": 2,
+  "E6": 5,
+  "C1": 5
+ },
+ "folds": 5,
+ "partitions": {
+  "E1": "dataset/splits/grouped_cv.csv",
+  "E1b": "dataset/splits/grouped_cv_design.csv",
+  "E2a": "family in dataset/metadata/samples.csv",
+  "E2b": "source in dataset/metadata/samples.csv",
+  "E3": "rep0 of dataset/splits/grouped_cv.csv, sources trusthub and ghost"
+ },
+ "payload_categories": [
+  "change-functionality",
+  "denial-of-service",
+  "leak-information"
+ ],
+ "selection_k": [
+  10,
+  25,
+  50
+ ],
+ "port_count_features": [
+  "net_pi_bits",
+  "net_po_bits",
+  "net_pins",
+  "fit_io_pins",
+  "syn_io_pins"
+ ],
+ "preprocessing": "signed log1p, training-median imputation with missing indicators, constant columns removed",
+ "thresholds": "0.5 on probabilities, 0 on the SVM decision function",
+ "hyperparameters": "ml/configs/model_hyperparameters.yaml"
+}

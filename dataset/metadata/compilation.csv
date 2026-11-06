@@ -1,0 +1,381 @@
+sample_id,source,role,design,compiled,failed_stage,first_error,flow_seconds,hdl_version,ports_in,ports_out,clock_ports
+S0001,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10149): Verilog HDL Declaration error at fpgaminer_top_T5.v(120): identifier ""golden_nonce"" is already declared in the present scope File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S000",58.4,SYSTEMVERILOG_2005,,,
+S0002,trusthub,trojan,aes_128,1,,,405.4,VERILOG_2001,258,128,clk
+S0003,hayashi,trojan,sha256_functions,1,,,87.9,VERILOG_2001,32,32,
+S0004,hayashi,trojan,dsram,0,timeout,Error (timeout): the step exceeded the time limit of 3600 s,3796.4,VERILOG_2001,67,32,clk
+S0005,trusthub,trojan,wb_conmax,1,,,1326.0,VERILOG_2001,1130,1416,clk_i;m0_addr_i[24]
+S0006,trusthub,trojan,pic16f84,1,,,147.4,VERILOG_2001,57,81,clk_i;int0_i;int4_i;int5_i;int6_i;int7_i;prog_dat_i[11];t0cki_i;wdt_clk_i
+S0007,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T8.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",96.2,SYSTEMVERILOG_2005,,,
+S0008,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T6.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",82.8,SYSTEMVERILOG_2005,,,
+S0009,hayashi,trojan,uart_tx_fifo,1,,,187.9,VERILOG_2001,10,2,clk
+S0010,hayashi,clean,uart_tx_fifo,1,,,235.4,VERILOG_2001,10,2,clk
+S0011,hayashi,trojan,MUX_to_Reg_File,1,,,94.0,VERILOG_2001,259,32,
+S0012,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T6.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",80.9,SYSTEMVERILOG_2005,,,
+S0013,hayashi,trojan,sha256_transform,1,,,555.6,VERILOG_2001,776,256,clk
+S0014,trusthub,trojan,mc8051,0,synthesis,"Error (10536): VHDL Loop Statement error at mc8051_rom_sim.vhd(84): loop must terminate within 10,000 iterations File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0014_s1/src/mc8051_rom_sim.vhd",72.5,VERILOG_2001,,,
+S0015,hayashi,trojan,uart_tx,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_T9.v(37) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FP",79.7,SYSTEMVERILOG_2005,,,
+S0016,hayashi,trojan,uart_comm,0,synthesis,"Error (12006): Node instance ""crc_blk"" instantiates undefined entity ""CRC32"". Ensure that required library paths are specified correctly, define the specified entity, or change the instantiation. If t",38.0,VERILOG_2001,,,
+S0017,hayashi,trojan,Branch_CTLR,1,,,95.5,VERILOG_2001,6,1,
+S0018,hayashi,trojan,sha256_functions,1,,,85.3,VERILOG_2001,32,32,
+S0019,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",36.6,VERILOG_2001,,,
+S0020,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",57.9,VERILOG_2001,,,
+S0021,hayashi,trojan,PC,1,,,71.7,VERILOG_2001,35,32,clk
+S0022,hayashi,clean,ALU_RV32I,1,,,276.8,VERILOG_2001,68,35,
+S0023,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T4.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",74.9,SYSTEMVERILOG_2005,,,
+S0024,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T9.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,74.8,VERILOG_2001,,,
+S0025,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(50) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0025_s1/src/u_xmit.v Line: 50",90.6,VERILOG_2001,,,
+S0026,hayashi,trojan,MUX_to_Reg_File,1,,,90.4,VERILOG_2001,259,32,
+S0027,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T6.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",103.3,SYSTEMVERILOG_2005,,,
+S0028,hayashi,trojan,Branch_CTLR,1,,,72.0,VERILOG_2001,5,1,
+S0029,hayashi,trojan,MUX_to_Reg_File,1,,,90.8,VERILOG_2001,259,32,
+S0030,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T2.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",63.2,SYSTEMVERILOG_2005,,,
+S0031,ghost,trojan,sram,1,,,214.8,VERILOG_2001,42,32,clk0
+S0032,ghost,trojan,aes_128,1,,,596.3,VERILOG_2001,258,128,clk
+S0033,hayashi,trojan,sha256_transform,1,,,549.5,VERILOG_2001,776,256,clk
+S0034,hayashi,trojan,dsram,0,synthesis,"Error (10170): Verilog HDL syntax error at dsram_T7.v(30) near text: ""and"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FP",79.5,SYSTEMVERILOG_2005,,,
+S0035,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T4.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",88.4,SYSTEMVERILOG_2005,,,
+S0036,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_fifo_T2.v(68) near text: ""endmodule"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",67.3,SYSTEMVERILOG_2005,,,
+S0037,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T5.v(20): object ""ALTERED_DATA"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Dow",19.7,VERILOG_2001,,,
+S0038,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T3.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,163.8,VERILOG_2001,,,
+S0039,trusthub,clean,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(50) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0039_s1/src/u_xmit.v Line: 50",87.7,VERILOG_2001,,,
+S0040,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T7.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",145.6,SYSTEMVERILOG_2005,,,
+S0041,ghost,trojan,sram,1,,,172.7,VERILOG_2001,42,32,clk0
+S0042,hayashi,trojan,sha256_transform,0,synthesis,"Error (12006): Node instance ""HASHERS[0].U"" instantiates undefined entity ""sha256_digester"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",137.2,VERILOG_2001,,,
+S0043,hayashi,trojan,uart_tx_fifo,1,,,167.1,VERILOG_2001,10,2,clk
+S0044,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10137): Verilog HDL Procedural Assignment error at RV32I_Top_T7.v(37): object ""w_en_to_bus_for_dmem"" on left-hand side of assignment must have a variable data type File: C:/Users/aalbataineh/Do",32.3,VERILOG_2001,,,
+S0045,hayashi,trojan,random,1,,,94.4,VERILOG_2001,34,8,i_clk
+S0046,hayashi,trojan,dsram,0,timeout,Error (timeout): the step exceeded the time limit of 3600 s,3796.4,VERILOG_2001,67,32,clk
+S0047,hayashi,trojan,uart_comm,0,synthesis,"Error (10161): Verilog HDL error at uart_comm_T3.v(243): object ""hash_clk_count"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbatai",49.8,VERILOG_2001,,,
+S0048,hayashi,trojan,uart_tx,1,,,88.5,VERILOG_2001,10,2,clk
+S0049,hayashi,trojan,uart_tx,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_T3.v(31) near text: ""}"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel ",40.1,SYSTEMVERILOG_2005,,,
+S0050,hayashi,trojan,ALU_RV32I,0,synthesis,"Error (10161): Verilog HDL error at ALU_RV32I_T7.v(39): object ""shift_amount"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh",29.5,VERILOG_2001,,,
+S0051,trusthub,trojan,mem_ctrl,1,,,253.7,VERILOG_2001,115,152,clk_i;mc_clk_i
+S0052,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10170): Verilog HDL syntax error at fpgaminer_top_T0.v(193) near text: ""end""; ""end"" without ""begin"" . Check for and fix any syntax errors that appear immediately before or at the specified keyw",67.8,SYSTEMVERILOG_2005,,,
+S0053,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",34.1,VERILOG_2001,,,
+S0054,hayashi,trojan,P2S,1,,,77.7,VERILOG_2001,35,2,clk
+S0055,hayashi,trojan,uart_tx,1,,,274.7,VERILOG_2001,10,2,clk
+S0056,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(53) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0056_s1/src/u_xmit.v Line: 53",51.8,VERILOG_2001,,,
+S0057,hayashi,trojan,random,1,,,279.4,VERILOG_2001,34,8,i_clk
+S0058,hayashi,trojan,ALU_RV32I,1,,,187.8,VERILOG_2001,68,35,
+S0059,hayashi,trojan,ALU_RV32I,1,,,254.3,VERILOG_2001,68,35,
+S0060,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T4.v(18): object ""SPECIFIC_DATA_PATTERN"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbat",17.4,VERILOG_2001,,,
+S0061,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",35.0,VERILOG_2001,,,
+S0062,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(50) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0062_s1/src/u_xmit.v Line: 50",46.7,VERILOG_2001,,,
+S0063,hayashi,trojan,P2S,1,,,75.2,VERILOG_2001,35,2,clk
+S0064,hayashi,trojan,ALU_RV32I,1,,,187.6,VERILOG_2001,69,35,
+S0065,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(50) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0065_s1/src/u_xmit.v Line: 50",83.8,VERILOG_2001,,,
+S0066,hayashi,trojan,P2S,1,,,76.2,VERILOG_2001,35,2,clk
+S0067,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T0.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",85.5,SYSTEMVERILOG_2005,,,
+S0068,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10149): Verilog HDL Declaration error at fpgaminer_top_T2.v(120): identifier ""golden_nonce"" is already declared in the present scope File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S006",37.9,VERILOG_2001,,,
+S0069,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T1.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",81.4,SYSTEMVERILOG_2005,,,
+S0070,hayashi,trojan,MUX_to_Reg_File,1,,,91.5,VERILOG_2001,259,32,
+S0071,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T1.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",72.9,SYSTEMVERILOG_2005,,,
+S0072,hayashi,trojan,PC,1,,,71.8,VERILOG_2001,35,32,clk
+S0073,hayashi,trojan,dsram,0,synthesis,"Error (10170): Verilog HDL syntax error at dsram_T8.v(30) near text: ""and"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FP",80.5,SYSTEMVERILOG_2005,,,
+S0074,trusthub,trojan,aes_128,1,,,906.4,VERILOG_2001,258,128,clk
+S0075,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",36.6,VERILOG_2001,,,
+S0076,hayashi,trojan,Register_File,1,,,270.8,VERILOG_2001,50,64,clk
+S0077,hayashi,trojan,PC,1,,,75.6,VERILOG_2001,35,32,clk
+S0078,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T2.v(20): object ""SPECIFIC_ADDR"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Do",19.5,VERILOG_2001,,,
+S0079,hayashi,trojan,P2S,1,,,72.8,VERILOG_2001,35,2,clk
+S0080,hayashi,trojan,ALU_RV32I,1,,,187.4,VERILOG_2001,68,35,
+S0081,hayashi,trojan,P2S,1,,,68.9,VERILOG_2001,35,2,clk
+S0082,hayashi,trojan,sha256_functions,1,,,262.7,VERILOG_2001,32,32,
+S0083,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T8.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",85.6,SYSTEMVERILOG_2005,,,
+S0084,trusthub,trojan,pic16f84,1,,,214.4,VERILOG_2001,57,81,clk_i;int0_i;int4_i;int5_i;int6_i;int7_i;prog_dat_i[11];t0cki_i;wdt_clk_i
+S0085,hayashi,clean,uart_tx,1,,,67.6,VERILOG_2001,10,2,clk
+S0086,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T9.v(9): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/quar,51.6,VERILOG_2001,,,
+S0087,hayashi,trojan,Register_File,1,,,204.8,VERILOG_2001,50,64,clk
+S0088,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",34.0,VERILOG_2001,,,
+S0089,hayashi,trojan,sha256_transform,0,synthesis,Error (10198): Verilog HDL error at sha256_transform_T0.v(54): part-select direction is opposite from prefix index direction File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0089_s1/src/sha256,129.2,VERILOG_2001,,,
+S0090,hayashi,trojan,CTLR_Unit_RV32I,1,,,221.2,VERILOG_2001,17,16,
+S0091,hayashi,trojan,sha256_transform,0,synthesis,"Error (12006): Node instance ""HASHERS[0].U"" instantiates undefined entity ""sha256_digester"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",118.6,VERILOG_2001,,,
+S0092,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T2.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",93.9,SYSTEMVERILOG_2005,,,
+S0093,hayashi,trojan,sha256_transform,0,synthesis,"Error (12006): Node instance ""HASHERS[0].U"" instantiates undefined entity ""sha256_digester"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",164.6,VERILOG_2001,,,
+S0094,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (10170): Verilog HDL syntax error at crypto_wallet2_top_T7.v(65) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. T",65.3,SYSTEMVERILOG_2005,,,
+S0095,hayashi,trojan,CTLR_Unit_RV32I,0,synthesis,"Error (10170): Verilog HDL syntax error at CTLR_Unit_RV32I_T0.v(20) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified key",93.8,SYSTEMVERILOG_2005,,,
+S0096,hayashi,trojan,uart_tx_fifo,1,,,199.9,VERILOG_2001,10,2,clk
+S0097,hayashi,trojan,Branch_CTLR,1,,,156.4,VERILOG_2001,6,1,
+S0098,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,29.1,VERILOG_2001,,,
+S0099,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",28.7,VERILOG_2001,,,
+S0100,hayashi,trojan,PC,1,,,71.0,VERILOG_2001,35,32,clk
+S0101,hayashi,clean,Data_Path_RV32I,1,,,1037.1,VERILOG_2001,83,113,clk
+S0102,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T8.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",56.3,SYSTEMVERILOG_2005,,,
+S0103,hayashi,trojan,PC,1,,,70.8,VERILOG_2001,35,32,clk
+S0104,hayashi,trojan,MUX_to_Reg_File,1,,,96.4,VERILOG_2001,259,32,
+S0105,hayashi,trojan,uart_tx_fifo,1,,,199.8,VERILOG_2001,10,2,clk
+S0106,hayashi,trojan,sha256_transform,0,synthesis,"Error (12002): Port ""trojan_active"" does not exist in macrofunction ""HASHERS[15].U"" File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0106_s1/src/sha256_transform_T9.v Line: 62",145.0,VERILOG_2001,,,
+S0107,hayashi,trojan,uart_tx_fifo,1,,,160.4,VERILOG_2001,10,2,clk
+S0108,hayashi,trojan,uart_rx,1,,,293.1,VERILOG_2001,2,9,clk
+S0109,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T7.v(9): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/quar,78.2,SYSTEMVERILOG_2005,,,
+S0110,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T5.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,120.4,VERILOG_2001,,,
+S0111,hayashi,trojan,virtual_wire,0,synthesis,"Error (12014): Net ""source[31]"", which fans out to ""source[31]"", cannot be assigned more than one value File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0111_s1/src/virtual_wire_T3.v Line: 6",131.7,VERILOG_2001,,,
+S0112,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T0.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",93.6,SYSTEMVERILOG_2005,,,
+S0113,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T3.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",74.3,SYSTEMVERILOG_2005,,,
+S0114,hayashi,trojan,P2S,1,,,67.6,VERILOG_2001,35,2,clk
+S0115,hayashi,clean,PC,1,,,89.4,VERILOG_2001,35,32,clk
+S0116,ghost,trojan,aes_128,1,,,4762.6,VERILOG_2001,259,256,clk
+S0117,hayashi,trojan,uart_rx,1,,,267.4,VERILOG_2001,2,9,clk
+S0118,trusthub,trojan,b19,1,,,2648.8,VERILOG_2001,47,30,clock;in1[10];in2[10]
+S0119,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_fifo_T1.v(43) near text: ""}"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",64.0,SYSTEMVERILOG_2005,,,
+S0120,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_fifo_T9.v(43) near text: ""}"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",85.9,SYSTEMVERILOG_2005,,,
+S0121,hayashi,clean,CTLR_Unit_RV32I,1,,,322.3,VERILOG_2001,17,16,
+S0122,hayashi,trojan,Branch_CTLR,1,,,148.2,VERILOG_2001,37,1,
+S0123,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(56) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0123_s1/src/u_xmit.v Line: 56",55.8,VERILOG_2001,,,
+S0124,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_fifo_T3.v(67) near text: ""endmodule"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",67.8,SYSTEMVERILOG_2005,,,
+S0125,hayashi,trojan,random,0,synthesis,"Error (10170): Verilog HDL syntax error at random_T6.v(30) near text: ""if"";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",82.2,SYSTEMVERILOG_2005,,,
+S0126,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T7.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",113.7,SYSTEMVERILOG_2005,,,
+S0127,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(28): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,21.8,VERILOG_2001,,,
+S0128,hayashi,trojan,crypto_wallet2_top,1,,,170.0,VERILOG_2001,35,32,CLOCK_50
+S0129,hayashi,trojan,dsram,0,timeout,Error (timeout): the step exceeded the time limit of 3600 s,3811.1,VERILOG_2001,67,32,clk
+S0130,hayashi,trojan,uart_tx_fifo,1,,,203.1,VERILOG_2001,10,2,clk
+S0131,hayashi,clean,sha256_transform,1,,,3172.6,VERILOG_2001,776,256,clk
+S0132,hayashi,trojan,Branch_CTLR,1,,,72.1,VERILOG_2001,5,1,
+S0133,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_fifo_T7.v(54) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Int",66.7,SYSTEMVERILOG_2005,,,
+S0134,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T0.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",56.8,SYSTEMVERILOG_2005,,,
+S0135,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at TSC.v(29): object load declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S,22.3,VERILOG_2001,,,
+S0136,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10170): Verilog HDL syntax error at fpgaminer_top_T8.v(126) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",78.7,SYSTEMVERILOG_2005,,,
+S0137,trusthub,trojan,mc8051,0,synthesis,"Error (10536): VHDL Loop Statement error at mc8051_rom_sim.vhd(84): loop must terminate within 10,000 iterations File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0137_s1/src/mc8051_rom_sim.vhd",54.5,VERILOG_2001,,,
+S0138,hayashi,trojan,P2S,1,,,73.0,VERILOG_2001,35,2,clk
+S0139,hayashi,trojan,Register_File,1,,,275.6,VERILOG_2001,50,64,clk
+S0140,trusthub,trojan,aes_128,1,,,556.6,VERILOG_2001,258,128,clk
+S0141,hayashi,trojan,PC,1,,,73.3,VERILOG_2001,35,32,clk
+S0142,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,35.8,VERILOG_2001,,,
+S0143,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T8.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,79.5,VERILOG_2001,,,
+S0144,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(28): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,20.6,VERILOG_2001,,,
+S0145,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10161): Verilog HDL error at virtual_wire_T6.v(38): object ""write"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Dow",35.0,VERILOG_2001,,,
+S0146,hayashi,trojan,Branch_CTLR,1,,,148.1,VERILOG_2001,37,1,
+S0147,trusthub,clean,pic16f84,0,synthesis,"Error (10137): Verilog HDL Procedural Assignment error at risc16f84.v(548): object ""temp"" on left-hand side of assignment must have a variable data type File: C:/Users/aalbataineh/Downloads/FPGA/build",26.2,VERILOG_2001,,,
+S0148,hayashi,clean,uart_rx,1,,,231.4,VERILOG_2001,2,9,clk
+S0149,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T8.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",143.0,SYSTEMVERILOG_2005,,,
+S0150,hayashi,trojan,PC,1,,,73.2,VERILOG_2001,35,32,clk
+S0151,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T9.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",112.7,SYSTEMVERILOG_2005,,,
+S0152,hayashi,clean,random,1,,,89.3,VERILOG_2001,34,8,i_clk
+S0153,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T3.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",103.4,SYSTEMVERILOG_2005,,,
+S0154,hayashi,trojan,random,0,synthesis,"Error (10170): Verilog HDL syntax error at random_T7.v(29) near text: ""if"";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",84.5,SYSTEMVERILOG_2005,,,
+S0155,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,36.9,VERILOG_2001,,,
+S0156,ghost,trojan,uart,1,,,86.8,VERILOG_2001,5,19,clk
+S0157,hayashi,trojan,sha256_functions,1,,,168.7,VERILOG_2001,32,32,
+S0158,hayashi,clean,Register_File,1,,,116.9,VERILOG_2001,50,64,clk
+S0159,hayashi,clean,isram,1,,,259.9,VERILOG_2001,20,32,clk
+S0160,trusthub,clean,mem_ctrl,1,,,147.7,VERILOG_2001,115,152,clk_i;mc_clk_i
+S0161,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,31.5,VERILOG_2001,,,
+S0162,ghost,trojan,aes_128,1,,,4774.7,VERILOG_2001,258,128,clk
+S0163,hayashi,trojan,main_pll,0,synthesis,"Error (10134): Verilog HDL Module Declaration error at main_pll_T0.v(6): port ""inclk0"" is declared more than once File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0163_s1/src/main_pll_T0.v Lin",45.4,VERILOG_2001,,,
+S0164,hayashi,trojan,CTLR_Unit_RV32I,0,synthesis,"Error (10170): Verilog HDL syntax error at CTLR_Unit_RV32I_T1.v(20) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified key",148.2,SYSTEMVERILOG_2005,,,
+S0165,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T2.v(9): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/quar,53.6,VERILOG_2001,,,
+S0166,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T1.v(18): object ""SPECIFIC_ADDR"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Do",18.8,VERILOG_2001,,,
+S0167,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10161): Verilog HDL error at uart_tx_fifo_T8.v(40): object ""write"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Dow",35.2,VERILOG_2001,,,
+S0168,hayashi,trojan,sha256_functions,1,,,173.8,VERILOG_2001,32,32,
+S0169,trusthub,trojan,aes_128,1,,,633.2,VERILOG_2001,258,128,clk
+S0170,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T1.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,73.6,VERILOG_2001,,,
+S0171,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T6.v(10): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/qua,109.8,SYSTEMVERILOG_2005,,,
+S0172,hayashi,trojan,dsram,0,timeout,Error (timeout): the step exceeded the time limit of 3600 s,3812.1,VERILOG_2001,67,32,clk
+S0173,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T2.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",103.0,SYSTEMVERILOG_2005,,,
+S0174,hayashi,trojan,Register_File,1,,,205.3,VERILOG_2001,50,64,clk
+S0175,hayashi,trojan,uart_rx,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_rx_T0.v(32) near text: ""}"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel ",91.2,SYSTEMVERILOG_2005,,,
+S0176,hayashi,trojan,sha256_functions,1,,,288.7,VERILOG_2001,32,32,
+S0177,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T5.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",98.5,SYSTEMVERILOG_2005,,,
+S0178,hayashi,trojan,dsram,0,timeout,Error (timeout): the step exceeded the time limit of 3600 s,3796.5,VERILOG_2001,67,32,clk
+S0179,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T8.v(38) near text: ""ODECODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The ",46.5,SYSTEMVERILOG_2005,,,
+S0180,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T6.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",153.1,SYSTEMVERILOG_2005,,,
+S0181,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,44.2,VERILOG_2001,,,
+S0182,hayashi,trojan,uart_tx_fifo,1,,,174.7,VERILOG_2001,10,2,clk
+S0183,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(50) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0183_s1/src/u_xmit.v Line: 50",80.2,VERILOG_2001,,,
+S0184,hayashi,trojan,sha256_functions,0,synthesis,"Error (10170): Verilog HDL syntax error at sha256_functions_T6.v(28) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified ke",114.8,SYSTEMVERILOG_2005,,,
+S0185,hayashi,trojan,uart_comm,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_comm_T7.v(141) near text: ""["";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword. Th",73.4,SYSTEMVERILOG_2005,,,
+S0186,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10149): Verilog HDL Declaration error at fpgaminer_top_T4.v(120): identifier ""golden_nonce"" is already declared in the present scope File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S018",64.9,SYSTEMVERILOG_2005,,,
+S0187,ghost,trojan,sram,1,,,165.6,VERILOG_2001,42,32,clk0
+S0188,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T5.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",63.7,SYSTEMVERILOG_2005,,,
+S0189,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(57) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0189_s1/src/u_xmit.v Line: 57",56.5,VERILOG_2001,,,
+S0190,hayashi,trojan,sha256_functions,1,,,233.4,VERILOG_2001,32,32,
+S0191,ghost,clean,aes_128,1,,,569.6,VERILOG_2001,257,128,clk
+S0192,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(28): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,21.9,VERILOG_2001,,,
+S0193,hayashi,trojan,Register_File,1,,,262.3,VERILOG_2001,50,64,clk
+S0194,hayashi,trojan,Register_File,1,,,212.3,VERILOG_2001,50,64,clk
+S0195,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at TSC.v(28): object load declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S,22.3,VERILOG_2001,,,
+S0196,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,24.6,VERILOG_2001,,,
+S0197,hayashi,clean,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",55.2,VERILOG_2001,,,
+S0198,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(28): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,25.7,VERILOG_2001,,,
+S0199,trusthub,trojan,uart,0,synthesis,"Error (10219): Verilog HDL Continuous Assignment error at u_rec.v(50): object ""rec_data_cntrH_1"" on left-hand side of assignment must have a net type File: C:/Users/aalbataineh/Downloads/FPGA/build/qu",65.6,VERILOG_2001,,,
+S0200,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T8.v(10): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/qua,60.4,VERILOG_2001,,,
+S0201,ghost,trojan,uart,1,,,400.5,VERILOG_2001,4,10,clk
+S0202,hayashi,trojan,uart_tx_fifo,1,,,185.5,VERILOG_2001,10,2,clk
+S0203,hayashi,trojan,Register_File,1,,,268.9,VERILOG_2001,50,64,clk
+S0204,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T2.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,95.6,VERILOG_2001,,,
+S0205,trusthub,trojan,b19,1,,,2647.7,VERILOG_2001,47,30,clock;in1[10];in2[10]
+S0206,hayashi,clean,fpgaminer_top,0,fitter,"Error (170011): Design contains 56169 blocks of type combinational node.  However, the device contains only 49760 blocks.",1395.9,VERILOG_2001,4,1,altera_reserved_tck;osc_clk
+S0207,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T4.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",100.7,SYSTEMVERILOG_2005,,,
+S0208,trusthub,trojan,mc8051,0,synthesis,"Error (10481): VHDL Use Clause error at bmg_wrapper.vhd(138): design library ""UNISIM"" does not contain primary unit ""VCOMPONENTS"". Verify that the primary unit exists in the library and has been succe",50.0,VERILOG_2001,,,
+S0209,trusthub,trojan,pic16f84,1,,,155.8,VERILOG_2001,57,81,clk_i;int0_i;int4_i;int5_i;int6_i;int7_i;prog_dat_i[11];t0cki_i;wdt_clk_i
+S0210,trusthub,trojan,mc8051,0,synthesis,"Error (10481): VHDL Use Clause error at bmg_wrapper.vhd(138): design library ""UNISIM"" does not contain primary unit ""VCOMPONENTS"". Verify that the primary unit exists in the library and has been succe",37.6,VERILOG_2001,,,
+S0211,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T7.v(18): object ""SPECIFIC_DATA_PATTERN"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbat",12.4,VERILOG_2001,,,
+S0212,hayashi,trojan,uart_rx,0,synthesis,"Error (10161): Verilog HDL error at uart_rx_T4.v(45): object ""serial"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Downloa",29.5,VERILOG_2001,,,
+S0213,hayashi,trojan,uart_tx,1,,,97.5,VERILOG_2001,10,2,clk
+S0214,hayashi,clean,virtual_wire,1,,,436.2,VERILOG_2001,4,2,altera_reserved_tck
+S0215,trusthub,trojan,aes_128,1,,,741.8,VERILOG_2001,258,128,clk
+S0216,hayashi,clean,dsram,0,fitter,"Error (170011): Design contains 55956 blocks of type combinational node.  However, the device contains only 49760 blocks.",478.6,VERILOG_2001,67,32,addr[0]
+S0217,hayashi,trojan,ALU_RV32I,0,synthesis,"Error (10161): Verilog HDL error at ALU_RV32I_T6.v(48): object ""shift_amount"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh",42.9,VERILOG_2001,,,
+S0218,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T6.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",54.2,SYSTEMVERILOG_2005,,,
+S0219,trusthub,trojan,aes_128,1,,,614.3,VERILOG_2001,258,128,clk
+S0220,hayashi,trojan,Branch_CTLR,1,,,72.4,VERILOG_2001,5,1,
+S0221,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,33.1,VERILOG_2001,,,
+S0222,hayashi,trojan,uart_comm,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""tx_midstate[255]"" at uart_comm_T9.v(261) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0222_s1/src/uart_comm_T9.v Line: 261",38.4,VERILOG_2001,,,
+S0223,hayashi,trojan,MUX_to_Reg_File,1,,,149.2,VERILOG_2001,260,32,
+S0224,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T5.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",98.8,SYSTEMVERILOG_2005,,,
+S0225,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T9.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",130.8,SYSTEMVERILOG_2005,,,
+S0226,hayashi,trojan,Branch_CTLR,1,,,148.4,VERILOG_2001,37,1,
+S0227,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T6.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,105.5,VERILOG_2001,,,
+S0228,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T0.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,69.8,VERILOG_2001,,,
+S0229,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(28): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,24.2,VERILOG_2001,,,
+S0230,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T7.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",57.1,SYSTEMVERILOG_2005,,,
+S0231,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T3.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",104.0,SYSTEMVERILOG_2005,,,
+S0232,hayashi,clean,RV32I_Top,1,,,278.1,VERILOG_2001,67,97,clk
+S0233,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T4.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",52.1,SYSTEMVERILOG_2005,,,
+S0234,hayashi,clean,MUX_to_Reg_File,1,,,91.0,VERILOG_2001,259,32,
+S0235,hayashi,trojan,CTLR_Unit_RV32I,1,,,261.2,VERILOG_2001,17,16,
+S0236,hayashi,trojan,uart_rx,0,synthesis,"Error (10161): Verilog HDL error at uart_rx_T5.v(63): object ""clk"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Downloads/",41.6,VERILOG_2001,,,
+S0237,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T9.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",77.9,SYSTEMVERILOG_2005,,,
+S0238,hayashi,clean,Immediate_Gen,1,,,161.4,VERILOG_2001,32,32,
+S0239,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T5.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",80.6,SYSTEMVERILOG_2005,,,
+S0240,hayashi,trojan,uart_comm,0,synthesis,"Error (10161): Verilog HDL error at uart_comm_T2.v(255): object ""is_golden_ticket"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbat",43.5,VERILOG_2001,,,
+S0241,hayashi,trojan,CTLR_Unit_RV32I,0,synthesis,"Error (10170): Verilog HDL syntax error at CTLR_Unit_RV32I_T9.v(20) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified key",97.9,SYSTEMVERILOG_2005,,,
+S0242,hayashi,trojan,sha256_functions,1,,,252.6,VERILOG_2001,32,32,
+S0243,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T3.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",43.1,SYSTEMVERILOG_2005,,,
+S0244,ghost,clean,sram,1,,,86.8,VERILOG_2001,42,32,clk0
+S0245,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T0.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",67.7,SYSTEMVERILOG_2005,,,
+S0246,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T8.v(18): object ""SPECIFIC_ADDR"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Do",18.6,VERILOG_2001,,,
+S0247,hayashi,trojan,uart_tx,1,,,85.8,VERILOG_2001,10,2,clk
+S0248,hayashi,trojan,MUX_to_Reg_File,1,,,91.5,VERILOG_2001,259,32,
+S0249,trusthub,trojan,aes_128,1,,,928.1,VERILOG_2001,258,128,clk
+S0250,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10170): Verilog HDL syntax error at fpgaminer_top_T1.v(152) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",64.1,SYSTEMVERILOG_2005,,,
+S0251,hayashi,trojan,MUX_to_Reg_File,1,,,91.8,VERILOG_2001,259,32,
+S0252,hayashi,trojan,uart_rx,1,,,273.4,VERILOG_2001,2,9,clk
+S0253,hayashi,trojan,random,0,synthesis,"Error (10170): Verilog HDL syntax error at random_T9.v(34) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPG",92.3,SYSTEMVERILOG_2005,,,
+S0254,hayashi,clean,sha256_functions,1,,,69.0,VERILOG_2001,32,32,
+S0255,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T7.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",107.9,SYSTEMVERILOG_2005,,,
+S0256,hayashi,trojan,PC,1,,,76.0,VERILOG_2001,35,32,clk
+S0257,hayashi,clean,prepherial_datapath,0,synthesis,"Error (12006): Node instance ""p2s_dut"" instantiates undefined entity ""p2s"". Ensure that required library paths are specified correctly, define the specified entity, or change the instantiation. If thi",78.5,VERILOG_2001,,,
+S0258,hayashi,trojan,main_pll,0,synthesis,"Error (10134): Verilog HDL Module Declaration error at main_pll_T1.v(6): port ""inclk0"" is declared more than once File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0258_s1/src/main_pll_T1.v Lin",61.3,VERILOG_2001,,,
+S0259,hayashi,trojan,Register_File,1,,,220.9,VERILOG_2001,50,64,clk
+S0260,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T4.v(10): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/qua,44.7,VERILOG_2001,,,
+S0261,hayashi,clean,StP,1,,,74.3,VERILOG_2001,5,42,clk
+S0262,hayashi,trojan,uart_rx,1,,,198.3,VERILOG_2001,2,9,clk
+S0263,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T4.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",46.0,SYSTEMVERILOG_2005,,,
+S0264,hayashi,clean,Branch_CTLR,1,,,86.8,VERILOG_2001,5,1,
+S0265,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T0.v(18): object ""SPECIFIC_DATA_PATTERN"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbat",14.9,VERILOG_2001,,,
+S0266,hayashi,trojan,Register_File,1,,,250.0,VERILOG_2001,50,64,clk
+S0267,hayashi,trojan,uart_comm,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_comm_T5.v(142) near text: ""["";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword. Th",80.5,SYSTEMVERILOG_2005,,,
+S0268,trusthub,trojan,mc8051,0,synthesis,"Error (10481): VHDL Use Clause error at bmg_wrapper.vhd(138): design library ""UNISIM"" does not contain primary unit ""VCOMPONENTS"". Verify that the primary unit exists in the library and has been succe",61.9,VERILOG_2001,,,
+S0269,hayashi,trojan,PC,1,,,73.1,VERILOG_2001,35,32,clk
+S0270,hayashi,trojan,uart_comm,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_comm_T6.v(141) near text: ""["";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword. Th",81.6,SYSTEMVERILOG_2005,,,
+S0271,hayashi,trojan,Immediate_Gen,0,synthesis,"Error (10170): Verilog HDL syntax error at Immediate_Gen_T2.v(11) near text: ""if"";  expecting ""endmodule"". Check for and fix any syntax errors that appear immediately before or at the specified keywor",78.0,SYSTEMVERILOG_2005,,,
+S0272,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T7.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,115.5,VERILOG_2001,,,
+S0273,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10149): Verilog HDL Declaration error at fpgaminer_top_T9.v(121): identifier ""golden_nonce"" is already declared in the present scope File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S027",63.6,SYSTEMVERILOG_2005,,,
+S0274,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",55.7,VERILOG_2001,,,
+S0275,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T1.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",44.6,SYSTEMVERILOG_2005,,,
+S0276,trusthub,trojan,aes_128,1,,,575.7,VERILOG_2001,258,128,clk
+S0277,hayashi,trojan,uart_tx,1,,,160.8,VERILOG_2001,10,2,clk
+S0278,hayashi,trojan,ALU_RV32I,1,,,288.4,VERILOG_2001,68,35,
+S0279,trusthub,clean,aes_128,1,,,456.3,VERILOG_2001,257,128,clk
+S0280,ghost,trojan,sram,1,,,218.2,VERILOG_2001,42,32,clk0
+S0281,hayashi,trojan,uart_comm,0,synthesis,"Error (10161): Verilog HDL error at uart_comm_T1.v(234): object ""TROJAN_TRIGGER_CONDITION"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/User",51.0,VERILOG_2001,,,
+S0282,hayashi,trojan,uart_rx,1,,,255.5,VERILOG_2001,2,9,clk
+S0283,hayashi,trojan,uart_comm,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_comm_T8.v(234) near text: ""["";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword. Th",76.9,SYSTEMVERILOG_2005,,,
+S0284,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T3.v(10): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/qua,55.7,VERILOG_2001,,,
+S0285,hayashi,trojan,ALU_RV32I,0,synthesis,"Error (10161): Verilog HDL error at ALU_RV32I_T8.v(45): object ""shift_amount"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh",32.2,VERILOG_2001,,,
+S0286,hayashi,trojan,P2S,1,,,89.2,VERILOG_2001,35,2,clk
+S0287,hayashi,trojan,CTLR_Unit_RV32I,0,synthesis,"Error (10170): Verilog HDL syntax error at CTLR_Unit_RV32I_T4.v(39) near text: ""7"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. Th",68.2,SYSTEMVERILOG_2005,,,
+S0288,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",55.5,VERILOG_2001,,,
+S0289,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(51) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0289_s1/src/u_xmit.v Line: 51",74.5,VERILOG_2001,,,
+S0290,trusthub,trojan,pic16f84,1,,,144.6,VERILOG_2001,57,81,clk_i;int0_i;int4_i;int5_i;int6_i;int7_i;prog_dat_i[11];t0cki_i;wdt_clk_i
+S0291,hayashi,trojan,uart_tx,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_T0.v(37) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FP",70.2,SYSTEMVERILOG_2005,,,
+S0292,ghost,trojan,aes_128,1,,,589.5,VERILOG_2001,258,128,clk
+S0293,hayashi,trojan,CTLR_Unit_RV32I,1,,,283.3,VERILOG_2001,18,17,clk
+S0294,hayashi,trojan,Data_Path_RV32I,0,synthesis,Error (10072): Verilog HDL Always Construct error at Data_Path_RV32I_T4.v(34): Force Statement is not supported for processing with Quartus Prime Integrated Synthesis File: C:/Users/aalbataineh/Downlo,78.7,VERILOG_2001,,,
+S0295,hayashi,trojan,uart_tx,1,,,255.5,VERILOG_2001,10,2,clk
+S0296,hayashi,trojan,dsram,0,synthesis,"Error (10170): Verilog HDL syntax error at dsram_T0.v(30) near text: ""and"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FP",36.6,SYSTEMVERILOG_2005,,,
+S0297,trusthub,clean,wb_conmax,1,,,364.8,VERILOG_2001,1130,1416,clk_i
+S0298,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_fifo_T0.v(48) near text: ""}"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",69.4,SYSTEMVERILOG_2005,,,
+S0299,ghost,trojan,uart,1,,,342.3,VERILOG_2001,4,10,clk
+S0300,hayashi,trojan,sha256_transform,0,synthesis,Error (10198): Verilog HDL error at sha256_transform_T8.v(48): part-select direction is opposite from prefix index direction File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0300_s1/src/sha256,74.9,VERILOG_2001,,,
+S0301,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",30.8,VERILOG_2001,,,
+S0302,trusthub,clean,b19,1,,,853.1,VERILOG_2001,47,30,clock
+S0303,hayashi,trojan,P2S,1,,,81.9,VERILOG_2001,35,2,clk
+S0304,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10149): Verilog HDL Declaration error at fpgaminer_top_T7.v(122): identifier ""golden_nonce"" is already declared in the present scope File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S030",63.1,SYSTEMVERILOG_2005,,,
+S0305,trusthub,trojan,mc8051,0,synthesis,"Error (10481): VHDL Use Clause error at bmg_wrapper.vhd(138): design library ""UNISIM"" does not contain primary unit ""VCOMPONENTS"". Verify that the primary unit exists in the library and has been succe",49.2,VERILOG_2001,,,
+S0306,trusthub,trojan,wb_conmax,1,,,1015.5,VERILOG_2001,1130,1416,clk_i
+S0307,trusthub,clean,aes_128,1,,,4762.3,VERILOG_2001,258,128,clk
+S0308,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",43.6,VERILOG_2001,,,
+S0309,hayashi,trojan,random,0,synthesis,"Error (10170): Verilog HDL syntax error at random_T5.v(29) near text: ""if"";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword. The I",84.1,SYSTEMVERILOG_2005,,,
+S0310,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(50) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0310_s1/src/u_xmit.v Line: 50",88.9,VERILOG_2001,,,
+S0311,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,29.4,VERILOG_2001,,,
+S0312,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",28.4,VERILOG_2001,,,
+S0313,hayashi,trojan,random,0,synthesis,"Error (10170): Verilog HDL syntax error at random_T4.v(34) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPG",34.6,SYSTEMVERILOG_2005,,,
+S0314,hayashi,trojan,Branch_CTLR,1,,,139.8,VERILOG_2001,37,1,
+S0315,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T9.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",115.4,SYSTEMVERILOG_2005,,,
+S0316,hayashi,trojan,random,0,synthesis,"Error (10170): Verilog HDL syntax error at random_T8.v(21) near text: ""ODE"";  expecting "")"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel F",95.9,SYSTEMVERILOG_2005,,,
+S0317,ghost,clean,uart,1,,,182.1,VERILOG_2001,4,10,clk
+S0318,hayashi,trojan,Branch_CTLR,1,,,159.5,VERILOG_2001,37,1,
+S0319,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",30.2,VERILOG_2001,,,
+S0320,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",35.6,VERILOG_2001,,,
+S0321,ghost,trojan,uart,1,,,414.0,VERILOG_2001,4,10,clk
+S0322,hayashi,trojan,dsram,0,timeout,Error (timeout): the step exceeded the time limit of 3600 s,3811.3,VERILOG_2001,67,32,clk
+S0323,hayashi,trojan,uart_tx_fifo,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_tx_fifo_T5.v(38) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Int",69.7,SYSTEMVERILOG_2005,,,
+S0324,trusthub,trojan,uart,1,,,338.4,VERILOG_2001,12,11,sys_clk;xmitH
+S0325,hayashi,trojan,uart_tx_fifo,1,,,198.2,VERILOG_2001,10,2,clk
+S0326,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T1.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",91.0,SYSTEMVERILOG_2005,,,
+S0327,hayashi,trojan,P2S,1,,,76.0,VERILOG_2001,35,2,clk
+S0328,hayashi,trojan,random,1,,,177.0,VERILOG_2001,34,9,i_clk
+S0329,hayashi,trojan,sha256_transform,0,synthesis,"Error (12006): Node instance ""HASHERS[0].U"" instantiates undefined entity ""sha256_digester"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",165.8,VERILOG_2001,,,
+S0330,hayashi,clean,uart_comm,0,synthesis,"Error (12006): Node instance ""crc_blk"" instantiates undefined entity ""CRC32"". Ensure that required library paths are specified correctly, define the specified entity, or change the instantiation. If t",59.0,VERILOG_2001,,,
+S0331,hayashi,trojan,Register_File,1,,,204.0,VERILOG_2001,50,64,clk
+S0332,hayashi,trojan,simpleBus,0,synthesis,"Error (10170): Verilog HDL syntax error at simpleBus_T0.v(32) near text: ""="";  expecting ""++"", or ""--"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",87.8,SYSTEMVERILOG_2005,,,
+S0333,hayashi,trojan,MUX_to_Reg_File,1,,,90.8,VERILOG_2001,259,32,
+S0334,hayashi,trojan,PC,1,,,75.3,VERILOG_2001,35,32,clk
+S0335,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T9.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",58.6,SYSTEMVERILOG_2005,,,
+S0336,hayashi,trojan,crypto_wallet2_top,1,,,173.9,VERILOG_2001,3,32,CLOCK_50
+S0337,hayashi,clean,main_pll,1,,,164.7,VERILOG_2001,1,1,inclk0
+S0338,hayashi,trojan,dsram,0,synthesis,"Error (10170): Verilog HDL syntax error at dsram_T9.v(30) near text: ""and"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FP",79.9,SYSTEMVERILOG_2005,,,
+S0339,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T1.v(47) near text: ""ODECODE"";  expecting "")"". Check for and fix any syntax errors that appear immediately before or at the specified key",60.0,SYSTEMVERILOG_2005,,,
+S0340,hayashi,clean,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",60.5,VERILOG_2001,,,
+S0341,hayashi,trojan,ALU_RV32I,1,,,187.3,VERILOG_2001,69,35,
+S0342,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10149): Verilog HDL Declaration error at fpgaminer_top_T6.v(123): identifier ""golden_nonce"" is already declared in the present scope File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S034",66.6,SYSTEMVERILOG_2005,,,
+S0343,trusthub,trojan,aes_128,1,,,552.6,VERILOG_2001,258,128,clk
+S0344,hayashi,trojan,sha256_transform,0,synthesis,"Error (12006): Node instance ""HASHERS[0].U"" instantiates undefined entity ""sha256_digester"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",102.5,VERILOG_2001,,,
+S0345,hayashi,trojan,prepherial_datapath,0,synthesis,"Error (10170): Verilog HDL syntax error at prepherial_datapath_T3.v(61) near text: ""("";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. ",52.4,SYSTEMVERILOG_2005,,,
+S0346,ghost,trojan,sram,1,,,237.0,VERILOG_2001,42,32,clk0
+S0347,hayashi,trojan,main_pll,0,synthesis,Error (10759): Verilog HDL error at main_pll_T5.v(10): object c0 declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/build/qua,66.5,SYSTEMVERILOG_2005,,,
+S0348,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T3.v(20): object ""ALTERED_DATA"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Dow",19.5,VERILOG_2001,,,
+S0349,hayashi,trojan,CTLR_Unit_RV32I,1,,,345.1,VERILOG_2001,17,16,
+S0350,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,31.3,VERILOG_2001,,,
+S0351,hayashi,trojan,uart_tx_fifo,1,,,168.1,VERILOG_2001,10,2,clk
+S0352,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(57) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0352_s1/src/u_xmit.v Line: 57",134.7,VERILOG_2001,,,
+S0353,hayashi,trojan,CTLR_Unit_RV32I,1,,,291.9,VERILOG_2001,17,16,
+S0354,trusthub,trojan,mc8051,0,synthesis,"Error (10481): VHDL Use Clause error at bmg_wrapper.vhd(138): design library ""UNISIM"" does not contain primary unit ""VCOMPONENTS"". Verify that the primary unit exists in the library and has been succe",70.9,VERILOG_2001,,,
+S0355,hayashi,trojan,uart_rx,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_rx_T9.v(33) near text: ""}"";  expecting ""end"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel ",98.9,SYSTEMVERILOG_2005,,,
+S0356,hayashi,clean,simpleBus,1,,,90.0,VERILOG_2001,105,106,
+S0357,hayashi,trojan,ALU_RV32I,1,,,251.5,VERILOG_2001,68,35,
+S0358,hayashi,trojan,StP,0,synthesis,"Error (10170): Verilog HDL syntax error at StP_T5.v(45) near text: "";"";  expecting ""}"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA K",114.8,SYSTEMVERILOG_2005,,,
+S0359,trusthub,trojan,aes_128,0,synthesis,Error (10759): Verilog HDL error at Trojan_Trigger.v(27): object Tj_Trig declared in a list of port declarations cannot be redeclared within the module body File: C:/Users/aalbataineh/Downloads/FPGA/b,38.4,VERILOG_2001,,,
+S0360,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",34.0,VERILOG_2001,,,
+S0361,hayashi,clean,P2S,1,,,89.3,VERILOG_2001,35,2,clk
+S0362,hayashi,trojan,CTLR_Unit_RV32I,1,,,267.6,VERILOG_2001,17,16,
+S0363,hayashi,trojan,MUX_to_Reg_File,1,,,93.3,VERILOG_2001,259,32,
+S0364,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T6.v(18): object ""SPECIFIC_ADDR"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Do",17.3,VERILOG_2001,,,
+S0365,hayashi,trojan,bip39,0,synthesis,"Error (12006): Node instance ""bip39_table_inst"" instantiates undefined entity ""bip39_table"". Ensure that required library paths are specified correctly, define the specified entity, or change the inst",31.5,VERILOG_2001,,,
+S0366,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(50) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0366_s1/src/u_xmit.v Line: 50",47.6,VERILOG_2001,,,
+S0367,hayashi,trojan,uart_tx,1,,,90.4,VERILOG_2001,10,2,clk
+S0368,trusthub,trojan,uart,0,synthesis,"Error (10028): Can't resolve multiple constant drivers for net ""bitCell_cntrH[3]"" at u_xmit.v(54) File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0368_s1/src/u_xmit.v Line: 54",42.5,VERILOG_2001,,,
+S0369,hayashi,trojan,uart_rx,1,,,267.8,VERILOG_2001,2,9,clk
+S0370,hayashi,trojan,random,1,,,70.6,VERILOG_2001,34,8,i_clk
+S0371,ghost,trojan,aes_128,1,,,4769.1,VERILOG_2001,258,256,clk
+S0372,trusthub,clean,mc8051,0,synthesis,"Error (10536): VHDL Loop Statement error at mc8051_rom_sim.vhd(84): loop must terminate within 10,000 iterations File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S0372_s1/src/mc8051_rom_sim.vhd",72.1,VERILOG_2001,,,
+S0373,hayashi,trojan,fpgaminer_top,0,synthesis,"Error (10149): Verilog HDL Declaration error at fpgaminer_top_T3.v(120): identifier ""golden_nonce"" is already declared in the present scope File: C:/Users/aalbataineh/Downloads/FPGA/build/quartus/S037",57.3,SYSTEMVERILOG_2005,,,
+S0374,hayashi,trojan,crypto_wallet2_top,0,synthesis,"Error (12006): Node instance ""sdram_pll_inst"" instantiates undefined entity ""sdram_pll"". Ensure that required library paths are specified correctly, define the specified entity, or change the instanti",37.3,VERILOG_2001,,,
+S0375,trusthub,trojan,aes_128,1,,,541.5,VERILOG_2001,258,128,clk
+S0376,hayashi,trojan,RV32I_Top,0,synthesis,"Error (10170): Verilog HDL syntax error at RV32I_Top_T2.v(38) near text: ""ODE"";  expecting "";"". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Inte",55.7,SYSTEMVERILOG_2005,,,
+S0377,hayashi,trojan,sha256_functions,1,,,237.5,VERILOG_2001,32,32,
+S0378,hayashi,trojan,uart_comm,0,synthesis,"Error (10170): Verilog HDL syntax error at uart_comm_T0.v(157) near text: ""case"";  expecting an operand. Check for and fix any syntax errors that appear immediately before or at the specified keyword.",76.1,SYSTEMVERILOG_2005,,,
+S0379,trusthub,trojan,b19,1,,,2280.2,VERILOG_2001,47,30,clock
+S0380,hayashi,trojan,isram,0,synthesis,"Error (10161): Verilog HDL error at isram_T9.v(20): object ""SPECIFIC_ADDR"" is not declared. Verify the object name is correct. If the name is correct, declare the object. File: C:/Users/aalbataineh/Do",18.8,VERILOG_2001,,,

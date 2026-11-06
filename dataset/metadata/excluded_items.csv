@@ -1,0 +1,77 @@
+source,item,reason
+ghost,gpt-4/aes_128/X/Xaes_128_HT4_gpt-4_A1.v,listed by GHOST as a failed generation attempt
+ghost,gpt-4/aes_128/X/Xaes_128_HT4_gpt-4_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,gpt-4/sram/X/Xsram_HT4_gpt-4_A1.v,listed by GHOST as a failed generation attempt
+ghost,gpt-4/sram/X/sram_HT4_gpt-4_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,gpt-4/uart/X/Xuart_rx_HT3_gpt-4_A1.v,listed by GHOST as a failed generation attempt
+ghost,gpt-4/uart/X/Xuart_rx_HT3_gpt-4_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,gpt-4/uart/X/Xuart_rx_HT4_gpt-4_A1.v,listed by GHOST as a failed generation attempt
+ghost,gpt-4/uart/X/uart_rx_HT4_gpt-4_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,llama3-70b-8192/sram/X/sram_HT1_llama3-70b-8192_A1.v,listed by GHOST as a failed generation attempt
+ghost,llama3-70b-8192/sram/X/sram_HT1_llama3-70b-8192_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,llama3-70b-8192/sram/X/sram_HT2_llama3-70b-8192_A1.v,listed by GHOST as a failed generation attempt
+ghost,llama3-70b-8192/sram/X/sram_HT2_llama3-70b-8192_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,llama3-70b-8192/sram/X/sram_HT4_llama3-70b-8192_A1.v,listed by GHOST as a failed generation attempt
+ghost,llama3-70b-8192/sram/X/sram_HT4_llama3-70b-8192_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/aes_128/X/aes_128_HT1_models_gemini-1.5-pro-latest_A1.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/aes_128/X/aes_128_HT1_models_gemini-1.5-pro-latest_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/aes_128/X/aes_128_HT4_models_gemini-1.5-pro-latest_A1.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/aes_128/X/aes_128_HT4_models_gemini-1.5-pro-latest_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/sram/X/sram_HT1_models_gemini-1.5-pro-latest_A1.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/sram/X/sram_HT1_models_gemini-1.5-pro-latest_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/sram/X/sram_HT2_models_gemini-1.5-pro-latest_A1.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/sram/X/sram_HT2_models_gemini-1.5-pro-latest_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/sram/X/sram_HT4_models_gemini-1.5-pro-latest_A1.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/sram/X/sram_HT4_models_gemini-1.5-pro-latest_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/uart/X/uart_rx_HT2_models_gemini-1.5-pro-latest_A1.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/uart/X/uart_rx_HT2_models_gemini-1.5-pro-latest_A1_tb.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/uart/X/uart_rx_HT4_models_gemini-1.5-pro-latest_A1.v,listed by GHOST as a failed generation attempt
+ghost,models_gemini-1.5-pro-latest/uart/X/uart_rx_HT4_models_gemini-1.5-pro-latest_A1_tb.v,listed by GHOST as a failed generation attempt
+trusthub,AES-T2200,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,B15-T100,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,B15-T200,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,B15-T300,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,B15-T400,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,B19-T100,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,B19-T200,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,BasicRSA-T100,archive contains no Trojan-free version of the design
+trusthub,BasicRSA-T200,archive contains no Trojan-free version of the design
+trusthub,BasicRSA-T300,archive contains no Trojan-free version of the design
+trusthub,BasicRSA-T400,archive contains no Trojan-free version of the design
+trusthub,EthernetMAC10GE-T100,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T200,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T300,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T400,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T500,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T600,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T700,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T710,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T720,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,EthernetMAC10GE-T730,distributed as a multi-part archive of ASIC layout or gate-level databases; not downloaded
+trusthub,MultPyramid-T100,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,MultPyramid-T200,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1000,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1100,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1200,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1300,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1400,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1500,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1600,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1700,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1800,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T1900,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,RS232-T2000,layout-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,TRIT-TC,gate-level netlists mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,TRIT-TS,gate-level netlists mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s15850-T100,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s35932-T100,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s35932-T200,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s35932-T300,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s38417-T100,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s38417-T200,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s38417-T300,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s38584-T100,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s38584-T200,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,s38584-T300,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,vga_lcd-T100,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
+trusthub,wb_conmax-T100,gate-level netlist mapped to an ASIC standard-cell library whose simulation models are not distributed with the benchmark
