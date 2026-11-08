@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use MAX10-HTD, please cite it as below."
-title: "MAX10-HTD, an Open FPGA Benchmark Dataset for Machine-Learning Hardware Trojan Detection"
+title: "An Open FPGA Benchmark Dataset for Machine-Learning Hardware Trojan Detection"
 type: dataset
 version: 1.0.0
 license: CC-BY-4.0
